@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>CHASE</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Sim-GS:Real-Time Simulation of Whole 3D Scene with Gaussian Splatting</h1>
+            <h1 class="title is-1 publication-title">SG-GS: Topology-aware Human Avatars with Semantically-guided\\ Gaussian Splatting</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
 <!--               <span class="author-block">
@@ -95,7 +95,7 @@
                   </span>
 
                   <!-- Github link -->
-                  <span class="link-block">
+<!--                   <span class="link-block">
                     <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
@@ -103,7 +103,7 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                </span> -->
 
                 <!-- ArXiv abstract Link -->
 <!--                 <span class="link-block">
@@ -125,11 +125,10 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
         <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
@@ -138,7 +137,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -164,12 +163,12 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Reconstructing photo-realistic and topology-aware animatable human avatars from monocular videos remains challenging in computer vision and graphics. Recently, methods using 3D Gaussians to represent the human body have emerged, offering faster optimization and real-time rendering. However, due to ignoring the crucial role of human body semantic information which represents the explicit topological structure and intrinsic structure within the human body, they fail to achieve fine-detail reconstruction of dynamic human avatars. To address this issue, we propose SG-GS, which uses semantics-embedded 3D Gaussians, skeleton-driven rigid deformation, and non-rigid cloth dynamics deformation to create photo-realistic human avatars from monocular videos. We then design a Semantic Human-Body Annotator (SHA) which utilizes SMPL's semantic prior for efficient body part semantic labeling. The generated labels are used to guide the optimization of Gaussian semantic attributes. To capture the explicit topological structure of human body, we also propose a 3D network that integrates both topological and geometric associations for human avatar deformation. We further implement three key strategies to enhance the semantic accuracy of 3D Gaussians and rendering quality: semantic projection with 2D regularization, semantic-guided density regularization and semantic-aware regularization with neighborhood consistency. Extensive experiments demonstrate that SG-GS achieves state-of-the-art geometry and appearance reconstruction performance.
           </p>
         </div>
         <!-- 在这里插入 Pipeline 图 -->
         <figure class="image is-centered">
-          <img src="static/images/carousel1.jpg" alt="Pipeline">
+          <img src="static/images/pipeline_page-0001.jpg" alt="Pipeline">
           <figcaption class="has-text-centered">Figure 1: Overview of the proposed pipeline.</figcaption>
         </figure>
       </div>
@@ -178,20 +177,230 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
+      <!-- Emphasized Title -->
+      <h2 class="title is-1 has-text-centered" style="font-size: 2.0rem; font-weight: 500; margin-bottom: 40px; color: #4A4A4A;">
+        Novel Pose (Full Inputs)
+      </h2>
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================================== -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Emphasized Title -->
+      <h2 class="title is-1 has-text-centered" style="font-size: 2.0rem; font-weight: 500; margin-bottom: 40px; color: #4A4A4A;">
+        Novel Pose (Sparse Inputs)
+      </h2>
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================================== -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Emphasized Title -->
+      <h2 class="title is-1 has-text-centered" style="font-size: 2.0rem; font-weight: 500; margin-bottom: 40px; color: #4A4A4A;">
+        Novel View (Sparse Inputs)
+      </h2>
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================================== -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Emphasized Title -->
+      <h2 class="title is-1 has-text-centered" style="font-size: 2.0rem; font-weight: 500; margin-bottom: 40px; color: #4A4A4A;">
+        Novel View (Sparse Inputs)
+      </h2>
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="video-container" style="display: flex; justify-content: space-evenly; align-items: center;">
+        <!-- First video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- Second video -->
+        <div class="video-item" style="text-align: center;">
+          <video controls autoplay loop muted style="max-width: 400px; height: auto;">
+            <source src="static/videos/banner_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Novel Pose</h2>
       <div id="results-carousel" class="carousel results-carousel">
       <div class="item" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-  <!-- 视频内容 -->
         <video controls autoplay loop muted style="max-width: 50%; height: auto;">
         <source src="static/videos/banner_video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         <h2 class="subtitle has-text-centered">First video description.</h2>
       </div>
       <div class="item" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-  <!-- 视频内容 -->
         <video controls autoplay loop muted style="max-width: 50%; height: auto;">
         <source src="static/videos/banner_video.mp4" type="video/mp4">Your browser does not support the video tag.</video>
         <h2 class="subtitle has-text-centered">First video description.</h2>
@@ -199,7 +408,7 @@
   </div>
 </div>
 </div>
-</section>
+</section> -->
 <!-- End image carousel -->
 
 
@@ -225,12 +434,12 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+<!--   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>BibTex Code Here</code></pre>
     </div>
-</section>
+</section> -->
 <!--End BibTex citation -->
 
 
